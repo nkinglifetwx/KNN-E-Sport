@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Connexion - Knights Nation</title>
+  <link rel="stylesheet" href="/CSS/stylelogin.css">
+      <script src="script.js"> </script>
+</head>
+<body>
+  <header>
+    <div class="logo">🔥 Knights Nation</div>
+    <nav>
+      <a href="/HTML/index.html">Accueil</a>
+      <a href="/HTML/login.html">Connexion</a>
+      <a href="/HTML/register.html">Inscription</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Connexion</h1>
+    <form method="post" action="/login">
+      <label for="pseudo">Pseudo :</label>
+      <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo" required />
+
+      <label>Mot de passe :</label>
+      <div class="password-container">
+            <input type="password" id="password" name="password" placeholder="Votre mot de passe" required />
+            <span class="toggle-eye" onclick="togglePassword()">👁️</span>
+    </div>
+
+      <button type="submit">Se connecter</button>
+    </form>
+
+    <nav class="form-nav">
+        <a href="/HTML/register.html">Pas encore inscrit ?</a>
+        <a href="/HTML/index.html">Retour à l'accueil</a>
+    </nav>
+  </main>
+  <footer>
+    © 2025 Knights Nation. Tous droits réservés.
+  </footer>
+</body>
+</html>

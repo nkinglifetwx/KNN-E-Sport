@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Définir une composition</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <style>
+    .form-section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .form-section h2 {
+      color: #ff6600;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #444;
+      background-color: #1a1a1a;
+      color: white;
+      margin-top: 5px;
+    }
+
+    .player-block {
+        display: flex;
+        flex-wrap: w;
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #2a2a2a;
+      border-radius: 10px;
+    }
+
+    input[type="date"],
+    input[type="text"] {
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🎮 Team Admin</div>
+    <nav>
+      <a href="joueur.html">Espace Joueur</a>
+    </nav>
+  </header>
+
+  <div class="form-section">
+    <h2>📋 Créer une composition de match</h2>
+
+    <form id="compoForm">
+      <label for="date">📅 Date du match</label>
+      <input type="date" id="date" required>
+
+      <label for="adversaire">🏆 Adversaire</label>
+      <input type="text" id="adversaire" required>
+
+      <div id="playersZone">
+        <!-- Les blocs joueurs seront générés ici -->
+      </div>
+
+      <button type="submit" class="btn" style="margin-top: 20px;">✅ Enregistrer la compo</button>
+    </form>
+  </div>
+
+  <script>
+    const joueurs = [
+      "Joueur 1", "Joueur 2", "Joueur 3", "Joueur 4", "Joueur 5", "Joueur 6"
+    ];
+
+    const agents = [
+      "Brimstone", "Phoenix", "Sage", "Sova", "Viper", "Cypher", "Reyna", "Killjoy",
+      "Breach", "Omen", "Jett", "Raze", "Skye", "Yoru", "Astra", "Kayo", "Chamber",
+      "Neon", "Fade", "Harbor", "Gekko", "Deadlock", "Iso", "Clove", "Tejo", "Waylay"
+    ];
+
+    const playersZone = document.getElementById("playersZone");
+
+    joueurs.forEach((joueur, index) => {
+      const block = document.createElement("div");
+      block.className = "player-block";
+
+      block.innerHTML = `
+        <label>${joueur}</label>
+        <input type="checkbox" id="titulaire-${index}"> Titulaire
+        <label for="agent-${index}">Agent :</label>
+        <select id="agent-${index}">
+          ${agents.map(agent => `<option value="${agent}">${agent}</option>`).join("")}
+        </select>
+      `;
+
+      playersZone.appendChild(block);
+    });
+
+    document.getElementById("compoForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const date = document.getElementById("date").value;
+      const adversaire = document.getElementById("adversaire").value;
+
+      const compo = {
+        date,
+        adversaire,
+        joueurs: []
+      };
+
+      joueurs.forEach((joueur, index) => {
+        const titulaire = document.getElementById(`titulaire-${index}`).checked;
+        const agent = document.getElementById(`agent-${index}`).value;
+
+        if (titulaire) {
+          compo.joueurs.push({
+            nom: joueur,
+            agent
+          });
+        }
+      });
+
+      localStorage.setItem("compo-officielle", JSON.stringify(compo));
+      alert("✅ Composition enregistrée !");
+    });
+  </script>
+
+</body>
+</html>
