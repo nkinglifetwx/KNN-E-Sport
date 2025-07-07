@@ -1,20 +1,30 @@
 [
   {
-    "id": "article1",
-    "titre": "Notre victoire au playoffs 🏆",
-    "resume": "Résumé rapide des matchs valorant, victoires écrasantes d'un score de 3-0...",
-    "contenu": "<h2>Notre victoire au playoffs 🏆</h2><p>Voici le résumé complet : une performance incroyable de l’équipe KNN avec un 3-0 net contre les favoris du tournoi.</p>"
+    "id": 1,
+    "title": "Notre victoire au playoffs en Intermediaire 2 🏆",
+    "summary": "Résumé rapide des matchs valorant, victoires écrasantes d'un score de 3-0...",
+    "content": "<p>Cette saison a été riche en <em>émotions</em> et en <strong>rebondissements</strong> pour notre équipe. Après un parcours prometteur en Open 4, nous avons malheureusement échoué en demi-finale, une étape qui nous a poussés à redoubler d’efforts et à repenser notre stratégie pour la suite.</p><p>Suite à cette défaite, nous avons été promus en <strong>Intermédiaire 2</strong>, une division où nous avons rapidement trouvé notre rythme. Avec un esprit d’équipe renforcé et une motivation sans faille, nous avons réussi à nous qualifier pour les playoffs, étape cruciale de la compétition.</p><p>Pendant les playoffs, nous avons affronté <strong>trois équipes différentes</strong>, et c’est avec une détermination exemplaire que nous avons remporté chacun de nos matchs, <strong>3-0 à chaque fois</strong>. Ce succès n’aurait pas été possible sans l’apport déterminant de nos joueurs clés :</p><ul><li><strong>Nao</strong></li><li><strong>Foxonyd</strong></li><li><strong>Jakub</strong></li><li><strong>Nkinglifetwx</strong></li><li><strong>Max</strong></li></ul><p>Ils ont tous brillé par leur technique, leur engagement et leur cohésion sur le terrain.</p><p>Grâce à cette série de victoires éclatantes en playoffs, notre équipe a obtenu une <strong>promotion bien méritée en Intermédiaire 4</strong>. Cette nouvelle étape représente pour nous un vrai défi, mais aussi une source de motivation supplémentaire pour continuer à progresser et viser toujours plus haut.</p><p>Nous tenons à remercier tous ceux qui nous soutiennent, de près ou de loin, et nous sommes impatients de partager avec vous la suite de cette belle aventure sportive !</p>",
+    "date": "2025-07-05"
   },
   {
-    "id": "article2",
-    "titre": "Deux nouveaux joueurs 🔥",
-    "resume": "On accueille deux nouveaux joueurs, découvrez leurs profils ici...",
-    "contenu": "<h2>Deux nouveaux joueurs 🔥</h2><p>Bienvenue à Ares et Kyro, deux joueurs d’exception qui viennent renforcer nos lignes !</p>"
+    "id": 2,
+    "title": "Des nouveaux joueurs rejoignent la KNN 🔥",
+    "summary": "On accueille deux nouveaux joueurs, découvrez leurs profils ici...",
+    "content": "<p>Nous sommes heureux d’annoncer l’arrivée de deux nouveaux joueurs au sein de la KNN, renforçant notre équipe pour les défis à venir.</p><p>Cette saison a vu quelques changements importants dans notre roster. <strong>Jakub</strong>, qui était jusque-là titulaire, passe désormais en position de remplaçant, afin d’optimiser notre rotation et maintenir un effectif compétitif.</p><p>De plus, <strong>Floko</strong>, notre ancien Duelist, a dû quitter l’équipe en raison de contraintes de disponibilité, ce qui ne lui permettait plus de s’engager pleinement avec nous. Nous lui souhaitons le meilleur pour la suite de sa carrière.</p><p>Pour compenser ces départs, nous accueillons avec enthousiasme deux recrues de talent : <strong>Lucas</strong>, notre nouveau Initiateur, et <strong>Trippin</strong>, qui prend le rôle de Duelist. Leur arrivée apporte un souffle nouveau à l’équipe, et nous sommes impatients de voir leur impact sur le terrain.</p><p>Bienvenue à Lucas et Trippin dans la famille KNN ! Ensemble, nous continuerons à progresser et à viser les sommets.</p>",
+    "date": "2025-06-28"
   },
   {
-    "id": "article3",
-    "titre": "Prochains affrontements ⚔️",
-    "resume": "Préparez-vous pour les prochains affrontements, avec dates & horaires...",
-    "contenu": "<h2>Prochains affrontements ⚔️</h2><p>Calendrier des matchs à venir, objectifs stratégiques, et ce que vous devez savoir pour ne rien rater.</p>"
+    "id": 3,
+    "title": "La nouvelle équipe KNN se prépare pour la prochaine saison en Intermédiaire 4",
+    "summary": "Découvrez notre nouveau Roster renouvelée avec Nao, Foxonyd, Nkinglifetwx, Trippin et Lucas, prêts à relever le défi du prochain split en septembre.",
+    "content": "<p>Notre équipe KNN est prête à entamer une nouvelle phase avec un roster solide et équilibré. Voici la composition qui nous portera vers les prochains succès :</p><ul><li><strong>Nao</strong>, notre Controller, expert en contrôle de zone et stratégies d’équipe,</li><li><strong>Foxonyd</strong>, notre Sentinelle, spécialiste de la surveillance et du positionnement,</li><li><strong>Nkinglifetwx</strong>, polyvalent Flex, capable d’adapter son jeu à toutes les situations,</li><li><strong>Trippin</strong>, Duelist, en première ligne pour ouvrir les combats et prendre des initiatives offensives,</li><li><strong>Lucas</strong>, Initiateur, moteur de nos attaques, assurant la coordination et le déclenchement des engagements.</li></ul><p>Cette équipe est déjà en pleine préparation pour le prochain split, qui débutera en septembre en Intermédiaire 4. Avec de l’ambition, du travail et une cohésion renforcée, nous visons une saison pleine de réussites. Restez connectés pour suivre leur progression et leurs performances !</p>",
+    "date": "2025-06-20"
+  },
+    {
+    "id": 4,
+    "title": "Création d'une équipe Siege X",
+    "summary": "Découvrez notre nouveau Roster renouvelée avec Nao, Foxonyd, Nkinglifetwx, Trippin et Lucas, prêts à relever le défi du prochain split en septembre.",
+    "content": "<p>Notre équipe KNN est prête à entamer une nouvelle phase avec un roster solide et équilibré. Voici la composition qui nous portera vers les prochains succès :</p><ul><li><strong>Nao</strong>, notre Controller, expert en contrôle de zone et stratégies d’équipe,</li><li><strong>Foxonyd</strong>, notre Sentinelle, spécialiste de la surveillance et du positionnement,</li><li><strong>Nkinglifetwx</strong>, polyvalent Flex, capable d’adapter son jeu à toutes les situations,</li><li><strong>Trippin</strong>, Duelist, en première ligne pour ouvrir les combats et prendre des initiatives offensives,</li><li><strong>Lucas</strong>, Initiateur, moteur de nos attaques, assurant la coordination et le déclenchement des engagements.</li></ul><p>Cette équipe est déjà en pleine préparation pour le prochain split, qui débutera en septembre en Intermédiaire 4. Avec de l’ambition, du travail et une cohésion renforcée, nous visons une saison pleine de réussites. Restez connectés pour suivre leur progression et leurs performances !</p>",
+    "date": "2025-06-20"
   }
 ]

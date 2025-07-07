@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Gestion du mot de passe
+  
   function togglePassword() {
     const passwordInput = document.getElementById('password');
     if (passwordInput) {
