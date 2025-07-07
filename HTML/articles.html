@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Articles</title>
+  <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nos Articles</h1>
+    <nav>
+      <a href="/HTML/index.html">Accueil</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="articles-container" id="articles-list">
+      <!-- Les articles seront insérés ici dynamiquement -->
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Team E-Sport
+  </footer>
+
+  <div id="article-modal">
+    <div class="modal-content">
+      <button id="close-modal" title="Fermer">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="/HTML/script.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      setupArticles();  
+    });
+
+
+    document.getElementById('close-modal').addEventListener('click', () => {
+      document.getElementById('article-modal').style.display = 'none';
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target === document.getElementById('article-modal')) {
+        document.getElementById('article-modal').style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

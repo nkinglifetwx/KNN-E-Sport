@@ -80,8 +80,8 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.btn:hoover {
-    background-color: #e65c00;
+.btn:hover {
+  background-color: #e65c00;
 }
 
 footer {
@@ -233,4 +233,60 @@ select {
  overflow-x: auto;
  gap: 20px;
  padding-top: 20px; 
+}
+
+/* Popup modal */
+#article-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  color: #ddd;
+  box-shadow: 0 0 20px #ff6600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.modal-content h2 {
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+
+.modal-content p {
+  margin-bottom: 15px;
+}
+
+.modal-content ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-content li {
+  margin-bottom: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6600;
+  cursor: pointer;
+  user-select: none;
+}
+.close:hover {
+  color: #e65c00;
 }
