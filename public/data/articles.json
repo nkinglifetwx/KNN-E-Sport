@@ -1,0 +1,20 @@
+[
+  {
+    "id": "article1",
+    "title": "Notre victoire au playoffs 🏆",
+    "summary": "Résumé rapide des matchs valorant, victoires écrasantes d'un score de 3-0...",
+    "content": "<h2>Notre victoire au playoffs 🏆</h2><p>Voici le résumé complet : une performance incroyable de l’équipe KNN avec un 3-0 net contre les favoris du tournoi.</p>"
+  },
+  {
+    "id": "article2",
+    "title": "Deux nouveaux joueurs 🔥",
+    "summary": "On accueille deux nouveaux joueurs, découvrez leurs profils ici...",
+    "content": "<h2>Deux nouveaux joueurs 🔥</h2><p>Bienvenue à Ares et Kyro, deux joueurs d’exception qui viennent renforcer nos lignes !</p>"
+  },
+  {
+    "id": "article3",
+    "title": "Prochains affrontements ⚔️",
+    "summary": "Préparez-vous pour les prochains affrontements, avec dates & horaires...",
+    "content": "<h2>Prochains affrontements ⚔️</h2><p>Calendrier des matchs à venir, objectifs stratégiques, et ce que vous devez savoir pour ne rien rater.</p>"
+  }
+]
